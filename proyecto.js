@@ -3,15 +3,12 @@
 
   window.addEventListener('scroll', function () {
     if (window.pageYOffset > 600) {
-      nav.classList.add('bg-dark', 'shadow');
-      
+      nav.classList.add( 'pt-4', 'shadow');
+      nav.style.background ='orange';
       
     } else {
-      nav.classList.remove('bg-dark', 'shadow');
+      nav.classList.remove('shadow');
+      nav.style.background ='none';
     }
   });
 
-  new Vue({
-    el: '#navbar',
-    vuetify: new Vuetify(),
-  })

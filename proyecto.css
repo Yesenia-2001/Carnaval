@@ -11,16 +11,38 @@
     text-align: center;
 }
 footer{
-    padding-top: 10px;
+    font-size: 16px;
+    line-height: 13px;
     text-align: center;
-    background-color: rgba(255, 197, 7, 0.972);
+    background-color: orange;
+    color: white;
+    
 }
 
 .banner-image{
-    background-image: url('fondo.jpg');
+    background-image: url('https://www.semana.com/resizer/X8GPE4mMQ3NVxwtEPhE9Au8NGRs=/1200x675/filters:format(jpg):quality(50)//cloudfront-us-east-1.images.arcpublishing.com/semana/M37ITBTWYZHAXPOJLHENQIW2AU.jpg');
     background-size: cover;
 }
 
-h1{
-	color: black;
+#titulo{
+	font-size: 52px;
+    -webkit-text-fill-color:black;
+    -webkit-text-stroke:2px;
+}
+#formu{
+    color: black;
+    width: 100em;
+    border:10px solid black;
+    border-radius: 20px;
+   /*border: 4px solid black;*/
+    position: relative;
+    right: -550px;
+    background: orange;
+}
+.nav-link:hover{
+
+    background-color: rgba(255, 197, 7, 0.972);
+}
+#info{
+    font-size: 20px;
 }

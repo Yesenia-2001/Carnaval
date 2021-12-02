@@ -16,25 +16,44 @@
     <!-- barran de navegación (Dejalo así) -->
     <div id="navbar">
         <header class="navbar fixed-top navbar-light navbar-expand-lg navbar-dark p-md-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <!--imagen que está al lado del texto-->
-                    <img src="logo.png" alt="" width="60" height="50" class="d-inline-block align-text-top">
-                    Carnaval
-                </a>
-                <div id="derecha">
-                    <a href="#" class="nav-link text-white">INICIO</a>
-                    <a href="#" class="nav-link text-white">CITA</a>
-                    <a href="#" class="nav-link text-white">CONTACTO</a>
-                    
-                </div>
-            </div>
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="logo.png" alt="" width="60" height="50" class="d-inline-block align-text-top">
+                        Carnaval de Barranquilla 2022
+                    </a>
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarNav"
+                      aria-controls="navbarNav"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <div class="mx-auto"></div>
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="pag2.html">COMPRA TU BOLETA QUÍ</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">CONTACTO</a>
+                      </ul>
+                    </div>
+                  </div>
+            
         </header>
     </div>
      <!--imagen del banner (cambia la imagen)-->
     <div class="banner-image img-fluid w-100 vh-100 d-flex justify-content-center align-items-center ">
         <div class="content text-center">
-            <h1><b>QUIEN LO VIVE, ES QUIEN LO GOZA</b></h1>
+            <h1 id="titulo" class="text-white"><b>QUIEN LO VIVE, ES QUIEN LO GOZA</b></h1>
         </div>
     </div>
     <main class="container">
@@ -143,12 +162,13 @@
                 </section>
             </div>
             <!--footer pon aquí el formulario-->
-            <footer><p>Contáctenos</p></footer>
-        
-
-
         </div>
     </main>
+    <footer >
+        <p>Contáctenos</p>
+        <p>Línea gratuita 08000-09533</p>
+        <p>Correo: Carnavalquilla@espuma.com</p>      
+    </footer>
 
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
